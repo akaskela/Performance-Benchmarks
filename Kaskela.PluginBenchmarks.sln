@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaskela.PluginBenchmarks", "Kaskela.PluginBenchmarks\Kaskela.PluginBenchmarks.csproj", "{00EE3CBF-7327-4826-B4B5-5161B5E2F556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions", "Solutions", "{9274C0B4-868A-426E-94F4-37BFC13DA628}"
+	ProjectSection(SolutionItems) = preProject
+		Solutions\PluginBenchmark_1_0_0_0 - Managed.zip = Solutions\PluginBenchmark_1_0_0_0 - Managed.zip
+		Solutions\PluginBenchmark_1_0_0_0 - Unmanaged.zip = Solutions\PluginBenchmark_1_0_0_0 - Unmanaged.zip
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaskela.PluginBenchmarks.Test", "Kaskela.PluginBenchmarks.Test\Kaskela.PluginBenchmarks.Test.csproj", "{DE54949F-23D4-453C-8266-77044C6E60FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00EE3CBF-7327-4826-B4B5-5161B5E2F556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00EE3CBF-7327-4826-B4B5-5161B5E2F556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00EE3CBF-7327-4826-B4B5-5161B5E2F556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00EE3CBF-7327-4826-B4B5-5161B5E2F556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE54949F-23D4-453C-8266-77044C6E60FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE54949F-23D4-453C-8266-77044C6E60FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE54949F-23D4-453C-8266-77044C6E60FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE54949F-23D4-453C-8266-77044C6E60FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D33492A-A3C9-4E70-9E22-FD10F33F0B8C}
+	EndGlobalSection
+EndGlobal
