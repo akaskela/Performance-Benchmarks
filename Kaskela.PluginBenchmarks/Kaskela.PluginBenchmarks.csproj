@@ -81,26 +81,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivityVsMessage\CustomMessagePlugin_LotsOfInput.cs" />
+    <Compile Include="ActivityVsMessage\CustomMessagePlugin_ManyInput.cs" />
+    <Compile Include="ActivityVsMessage\CustomMessagePlugin_OneInput.cs" />
+    <Compile Include="ActivityVsMessage\StandardCustomWorkflowActivty_LotsOfInput.cs" />
+    <Compile Include="ActivityVsMessage\StandardCustomWorkflowActivty_ManyInput.cs" />
+    <Compile Include="ActivityVsMessage\StandardCustomWorkflowActivty_OneInput.cs" />
     <Compile Include="BenchmarkInitiator.cs" />
-    <Compile Include="Image005.cs" />
-    <Compile Include="Image010.cs" />
-    <Compile Include="Image025.cs" />
-    <Compile Include="Image050.cs" />
-    <Compile Include="Image250.cs" />
-    <Compile Include="ImageAll.cs" />
-    <Compile Include="Image500.cs" />
-    <Compile Include="Image100.cs" />
-    <Compile Include="PluginBase.cs" />
-    <Compile Include="Image001.cs" />
-    <Compile Include="RetrieveAll.cs" />
-    <Compile Include="Retrieve500.cs" />
-    <Compile Include="Retrieve250.cs" />
-    <Compile Include="Retrieve100.cs" />
-    <Compile Include="Retrieve050.cs" />
-    <Compile Include="Retrieve025.cs" />
-    <Compile Include="Retrieve010.cs" />
-    <Compile Include="Retrieve005.cs" />
-    <Compile Include="Retrieve001.cs" />
+    <Compile Include="ImageVsRetrieve\Image005.cs" />
+    <Compile Include="ImageVsRetrieve\Image010.cs" />
+    <Compile Include="ImageVsRetrieve\Image025.cs" />
+    <Compile Include="ImageVsRetrieve\Image050.cs" />
+    <Compile Include="ImageVsRetrieve\Image250.cs" />
+    <Compile Include="ImageVsRetrieve\ImageAll.cs" />
+    <Compile Include="ImageVsRetrieve\Image500.cs" />
+    <Compile Include="ImageVsRetrieve\Image100.cs" />
+    <Compile Include="ImageVsRetrieve\PluginBase.cs" />
+    <Compile Include="ImageVsRetrieve\Image001.cs" />
+    <Compile Include="ImageVsRetrieve\RetrieveAll.cs" />
+    <Compile Include="ImageVsRetrieve\Retrieve500.cs" />
+    <Compile Include="ImageVsRetrieve\Retrieve250.cs" />
+    <Compile Include="ImageVsRetrieve\Retrieve100.cs" />
+    <Compile Include="ImageVsRetrieve\Retrieve050.cs" />
+    <Compile Include="ImageVsRetrieve\Retrieve025.cs" />
+    <Compile Include="ImageVsRetrieve\Retrieve010.cs" />
+    <Compile Include="ImageVsRetrieve\Retrieve005.cs" />
+    <Compile Include="ImageVsRetrieve\Retrieve001.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

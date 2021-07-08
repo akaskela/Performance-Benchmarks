@@ -13,6 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions", "Solutions", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaskela.PluginBenchmarks.Test", "Kaskela.PluginBenchmarks.Test\Kaskela.PluginBenchmarks.Test.csproj", "{DE54949F-23D4-453C-8266-77044C6E60FD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EarlyBound", "EarlyBound", "{89D381C5-0370-487C-8CC8-DEB91A606285}"
+	ProjectSection(SolutionItems) = preProject
+		EarlyBound\Actions.cs = EarlyBound\Actions.cs
+		EarlyBound\Entities.cs = EarlyBound\Entities.cs
+		EarlyBound\OptionSets.cs = EarlyBound\OptionSets.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
